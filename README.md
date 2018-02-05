@@ -14,7 +14,8 @@ None
 
 ## Outputs
 
-* `vpc_id`: The VPC id.
+* `vpc`: The VPC id.
+* `eig`: The internet gateway id.
 
 ## Example use
 
