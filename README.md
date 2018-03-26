@@ -14,8 +14,9 @@ None
 
 ## Outputs
 
-* `vpc`: The VPC id.
-* `eig`: The internet gateway id.
+* `vpc` : The VPC id.
+* `eig` : The internet gateway id.
+* `cidr`: The cidr block.
 
 ## Example use
 
