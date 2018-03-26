@@ -5,3 +5,7 @@ output "vpc" {
 output "eig" {
   value = "${aws_internet_gateway.vpc.id}"
 }
+
+output "cidr" {
+  value = "${aws_vpc.vpc.cidr_block}"
+}
