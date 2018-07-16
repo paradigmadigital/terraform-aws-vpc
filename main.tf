@@ -1,6 +1,8 @@
 # Create VPC
 resource "aws_vpc" "vpc" {
   cidr_block = "${var.aws_vpc_cidr}"
+  enable_dns_hostnames = "${var.aws_vpc_enable_dns_hostnames}"
+  enable_dns_support = "${var.aws_vpc_enable_dns_support}"
 
   tags {
     Name = "${var.aws_vpc_environment}-vpc"

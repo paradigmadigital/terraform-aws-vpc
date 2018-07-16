@@ -11,6 +11,8 @@ None
 * `aws_vpc_cidr`: IP range of the VPC.
 * `aws_vpc_environment`: The project environment.
 * `aws_region`: The region of the environment.
+* `aws_vpc_enable_dns_support`: Boolean flag to enable/disable DNS support in the VPC
+* `aws_vpc_enable_dns_hostnames`: Boolean flag to enable/disable DNS hostnames in the VPC
 
 ## Outputs
 
